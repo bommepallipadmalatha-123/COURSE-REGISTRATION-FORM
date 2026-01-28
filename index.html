@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Course Registration Form</title>
+  </head>
+  <body>
+    <h2>Course Registration Form</h2>
+
+    <form>
+      <fieldset>
+        <legend>Personal details</legend>
+        <table>
+          <tr>
+            <td>First Name</td>
+            <td><input type="text" placeholder="Ex: Harshit" /></td>
+          </tr>
+          <tr>
+            <td>Surname</td>
+            <td><input type="text" placeholder="Ex: T" /></td>
+          </tr>
+          <tr>
+            <td>Mobile number</td>
+            <td><input type="text" placeholder="Ex: 987-657-0887" /></td>
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td><input type="email" placeholder="Ex: mnt@gmail.com" /></td>
+          </tr>
+          <tr>
+            <td>Password</td>
+            <td><input type="password" placeholder="min 5 characters" /></td>
+          </tr>
+          <tr>
+            <td>Confirm Password</td>
+            <td><input type="password" placeholder="min 5 characters" /></td>
+          </tr>
+          <tr>
+            <td>DOB</td>
+            <td><input type="date" /></td>
+          </tr>
+          <tr>
+            <td>Gender</td>
+            <td>
+              <input type="radio" name="gender" /> Male
+              <input type="radio" name="gender" /> Female
+              <input type="radio" name="gender" checked /> Other
+            </td>
+          </tr>
+          <tr>
+            <td>Select Country</td>
+            <td>
+              <select>
+                <option>INDIA</option>
+                <option>USA</option>
+                <option>AUSTRALIA</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Upload Picture</td>
+            <td><input type="file" /></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input type="reset" value="Reset" />
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+
+      <br />
+
+      <fieldset>
+        <legend>Course Details</legend>
+        <table>
+          <tr>
+            <td>Select Course</td>
+            <td>
+              <select>
+                <option>Python Full Stack</option>
+                <option>Java Full Stack</option>
+                <option>MERN Stack</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Delivery Mode</td>
+            <td>
+              <input type="checkbox" /> ONLINE
+              <input type="checkbox" checked /> OFFLINE
+            </td>
+          </tr>
+          <tr>
+            <td>Comments</td>
+            <td>
+              <textarea rows="4" cols="30"></textarea>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
